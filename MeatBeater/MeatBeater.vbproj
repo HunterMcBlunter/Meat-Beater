@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{08E7E475-2469-4EB4-B3DB-A6DE4FA76F24}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MeatBeater.My.MyApplication</StartupObject>
+    <RootNamespace>MeatBeater</RootNamespace>
+    <AssemblyName>MeatBeater</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MeatBeater.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MeatBeater.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AchievementCheck.vb" />
+    <Compile Include="BossBattle.vb" />
+    <Compile Include="CurrencyCheck.vb" />
+    <Compile Include="ExchangeCurrency.vb" />
+    <Compile Include="frmCarpalTunnelBossBattle.Designer.vb">
+      <DependentUpon>frmCarpalTunnelBossBattle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCarpalTunnelBossBattle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMeatBeater.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMeatBeater.Designer.vb">
+      <DependentUpon>frmMeatBeater.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTutorialHowToLoad_Page1.Designer.vb">
+      <DependentUpon>frmTutorialHowToLoad_Page1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTutorialHowToLoad_Page1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTutorialHowToLoad_Page2.Designer.vb">
+      <DependentUpon>frmTutorialHowToLoad_Page2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTutorialHowToLoad_Page2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTutorialHowToPlay_Page1.Designer.vb">
+      <DependentUpon>frmTutorialHowToPlay_Page1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTutorialHowToPlay_Page1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTutorialHowToPlay_Page2.Designer.vb">
+      <DependentUpon>frmTutorialHowToPlay_Page2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTutorialHowToPlay_Page2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTutorialHowToPurchasePT_Page1.Designer.vb">
+      <DependentUpon>frmTutorialHowToPurchasePT_Page1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTutorialHowToPurchasePT_Page1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTutorialHowToPurchasePT_Page2.Designer.vb">
+      <DependentUpon>frmTutorialHowToPurchasePT_Page2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTutorialHowToPurchasePT_Page2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTutorialHowToSave_Page1.Designer.vb">
+      <DependentUpon>frmTutorialHowToSave_Page1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTutorialHowToSave_Page1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTutorialHowToSave_Page2.Designer.vb">
+      <DependentUpon>frmTutorialHowToSave_Page2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTutorialHowToSave_Page2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HideObjects.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SaveLoad.vb" />
+    <Compile Include="SetValue.vb" />
+    <Compile Include="ShowObjects.vb" />
+    <Compile Include="frmTutorialMenu.Designer.vb">
+      <DependentUpon>frmTutorialMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTutorialMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpToDateVars.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmCarpalTunnelBossBattle.resx">
+      <DependentUpon>frmCarpalTunnelBossBattle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMeatBeater.resx">
+      <DependentUpon>frmMeatBeater.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTutorialHowToLoad_Page1.resx">
+      <DependentUpon>frmTutorialHowToLoad_Page1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTutorialHowToLoad_Page2.resx">
+      <DependentUpon>frmTutorialHowToLoad_Page2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTutorialHowToPlay_Page1.resx">
+      <DependentUpon>frmTutorialHowToPlay_Page1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTutorialHowToPlay_Page2.resx">
+      <DependentUpon>frmTutorialHowToPlay_Page2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTutorialHowToPurchasePT_Page1.resx">
+      <DependentUpon>frmTutorialHowToPurchasePT_Page1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTutorialHowToPurchasePT_Page2.resx">
+      <DependentUpon>frmTutorialHowToPurchasePT_Page2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTutorialHowToSave_Page1.resx">
+      <DependentUpon>frmTutorialHowToSave_Page1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTutorialHowToSave_Page2.resx">
+      <DependentUpon>frmTutorialHowToSave_Page2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTutorialMenu.resx">
+      <DependentUpon>frmTutorialMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beat.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meat2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuthow2load_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuthow2load_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuthow2load_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuthow2play_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuthow2play_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuthow2purchase_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuthow2purchase_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuthow2purchase_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuthow2save_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuthow2save_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuthow2save_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\hand.gif" />
+    <None Include="Resources\hand1.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

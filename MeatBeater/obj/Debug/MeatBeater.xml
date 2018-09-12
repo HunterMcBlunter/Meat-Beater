@@ -1,0 +1,106 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MeatBeater
+</name>
+</assembly>
+<members>
+<member name="T:MeatBeater.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MeatBeater.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MeatBeater.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:MeatBeater.My.Resources.Resources.beat_click">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:MeatBeater.My.Resources.Resources.hand">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MeatBeater.My.Resources.Resources.meat">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MeatBeater.My.Resources.Resources.meat1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MeatBeater.My.Resources.Resources.String1">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:MeatBeater.My.Resources.Resources.tuthow2load_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MeatBeater.My.Resources.Resources.tuthow2load_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MeatBeater.My.Resources.Resources.tuthow2load_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MeatBeater.My.Resources.Resources.tuthow2play_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MeatBeater.My.Resources.Resources.tuthow2play_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MeatBeater.My.Resources.Resources.tuthow2purchase_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MeatBeater.My.Resources.Resources.tuthow2purchase_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MeatBeater.My.Resources.Resources.tuthow2purchase_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MeatBeater.My.Resources.Resources.tuthow2save_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MeatBeater.My.Resources.Resources.tuthow2save_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MeatBeater.My.Resources.Resources.tuthow2save_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
